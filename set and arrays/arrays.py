@@ -4,7 +4,7 @@ import array as arr
 array_num = arr.array('i', [1, 3, 5, 3, 7, 9, 2])
 print("original array: "+str(array_num))
 
-# count number of occurances
+# count the number of occurances
 print("number of occurances of the number 3 in the said array: "+str(array_num.count(3)))
 
 #reverse the array 
