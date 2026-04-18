@@ -12,4 +12,3 @@ for i in range(num_sides):
     polygon.right(angle)
 
 turtle.done()
-  

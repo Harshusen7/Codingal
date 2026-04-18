@@ -47,42 +47,42 @@ def game():
 
 
         if count >= 5:
-            if theBoard['7'] == theBoard['8'] == theBoard['9'] != ' ': #acros the top
+            if theBoard['7'] == theBoard['8'] == theBoard['9'] != ' ': #accros the top
                 printBoard(theBoard)
                 print("\nGame over.\n")
                 print(" **** " +turn + " won. ****")
                 break 
-            elif  theBoard['4'] == theBoard['5'] == theBoard['6'] != ' ': #acros the middle
+            elif  theBoard['4'] == theBoard['5'] == theBoard['6'] != ' ': #accros the middle
                 printBoard(theBoard)
                 print("\nGame over.\n")
                 print(" **** " +turn + " won. ****")
                 break 
-            elif  theBoard['1'] == theBoard['2'] == theBoard['3'] != ' ': #acros the bottom
+            elif  theBoard['1'] == theBoard['2'] == theBoard['3'] != ' ': #accros the bottom
                 printBoard(theBoard)
                 print("\nGame over.\n")
                 print(" **** " +turn + " won. ****")
                 break 
-            elif  theBoard['1'] == theBoard['4'] == theBoard['7'] != ' ': #acros the bottom
+            elif  theBoard['1'] == theBoard['4'] == theBoard['7'] != ' ': #accros the left
                 printBoard(theBoard)
                 print("\nGame over.\n")
                 print(" **** " +turn + " won. ****")
                 break 
-            elif  theBoard['2'] == theBoard['5'] == theBoard['8'] != ' ': #acros the bottom
+            elif  theBoard['2'] == theBoard['5'] == theBoard['8'] != ' ': #accros the centre
                 printBoard(theBoard)
                 print("\nGame over.\n")
                 print(" **** " +turn + " won. ****")
                 break 
-            elif  theBoard['3'] == theBoard['6'] == theBoard['9'] != ' ': #acros the bottom
+            elif  theBoard['3'] == theBoard['6'] == theBoard['9'] != ' ': #accros the right
                 printBoard(theBoard)
                 print("\nGame over.\n")
                 print(" **** " +turn + " won. ****")
                 break 
-            elif  theBoard['7'] == theBoard['5'] == theBoard['3'] != ' ': #acros the bottom
+            elif  theBoard['7'] == theBoard['5'] == theBoard['3'] != ' ': #accros the diagonal
                 printBoard(theBoard)
                 print("\nGame over.\n")
                 print(" **** " +turn + " won. ****")
                 break 
-            elif  theBoard['1'] == theBoard['5'] == theBoard['9'] != ' ': #acros the bottom
+            elif  theBoard['1'] == theBoard['5'] == theBoard['9'] != ' ': #accros the diagonal
                 printBoard(theBoard)
                 print("\nGame over.\n")
                 print(" **** " +turn + " won. ****")
