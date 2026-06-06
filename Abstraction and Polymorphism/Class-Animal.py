@@ -37,7 +37,7 @@ r.move()
 k = Snake()
 k.move()
 
-r = Dog()
+r = Dog(
 r.move()
 
 k = Lion()
