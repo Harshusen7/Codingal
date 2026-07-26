@@ -17,4 +17,10 @@ name_lbl = Label(text="Full Name", bg= "#3895D3")
 name_entry = Entry()
 
 # Function to display a message
+def display():
+    # read input given by user
+    name = name_entry.get()
+    # declaring a global variable
+    # to make it accessible anywhere in the program
+    global message
               
