@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 days   =['Mon', 'Tue', 'Wed', 'Thu', 'Fri']
-scores = [70, 75, 80, 85, 90]
+scores = [65, 77 , 90, 35, 10]
 
 plt.plot(days,scores)
 plt.show()
@@ -28,3 +28,5 @@ plt.xlabel('Day of the week')
 plt.ylabel('score')
 plt.ylim(0, 100)
 plt.show()
+
+
